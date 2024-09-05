@@ -1,0 +1,728 @@
+{
+    "New": {
+        "day": "https://www.dropbox.com/scl/fi/b61jhqovxops9pqfqn1t8/New-Moon.gif?rlkey=2wlznm8dpw2jmw2u4zg7i6q06&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/b61jhqovxops9pqfqn1t8/New-Moon.gif?rlkey=2wlznm8dpw2jmw2u4zg7i6q06&raw=1",
+        "description": "New",
+        "hierarchy": null
+    },
+    "First": {
+        "day": "https://www.dropbox.com/scl/fi/1x5eng4a0z2h61jmol2r0/First-Quarter.gif?rlkey=qowm044z9bbkzpltihzkhkuui&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/1x5eng4a0z2h61jmol2r0/First-Quarter.gif?rlkey=qowm044z9bbkzpltihzkhkuui&raw=1",
+        "description": "First",
+        "hierarchy": null
+    },
+    "Last": {
+        "day": "https://www.dropbox.com/scl/fi/jewqg4y4jfj52yoj6ouc4/Last-Quarter.gif?rlkey=m7xyymfyoo28i86a2f7os0p0m&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/jewqg4y4jfj52yoj6ouc4/Last-Quarter.gif?rlkey=m7xyymfyoo28i86a2f7os0p0m&raw=1",
+        "description": "Last",
+        "hierarchy": null
+    },
+    "Full": {
+        "day": "https://www.dropbox.com/scl/fi/am53eg8p1h7bc7zb5edc5/Full-Moon.gif?rlkey=5cjsdgirrf3rrswz6r1agthmw&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/am53eg8p1h7bc7zb5edc5/Full-Moon.gif?rlkey=5cjsdgirrf3rrswz6r1agthmw&raw=1",
+        "description": "Full",
+        "hierarchy": null
+    },
+    "skc": {
+        "day": "https://www.dropbox.com/scl/fi/rakr8c8u54udnmt9kn463/Sunny.gif?rlkey=kcjmnm423f5jiyjglo8udjwh5&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/tggxr7a0jxgyea8juyz5x/Clear.gif?rlkey=c0z7om34yy6hrbxwxon7yrt78&raw=1",
+        "description": "Fair",
+        "hierarchy": 1
+    },
+    "hi_skc": {
+        "day": "https://www.dropbox.com/scl/fi/rakr8c8u54udnmt9kn463/Sunny.gif?rlkey=kcjmnm423f5jiyjglo8udjwh5&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/tggxr7a0jxgyea8juyz5x/Clear.gif?rlkey=c0z7om34yy6hrbxwxon7yrt78&raw=1",
+        "description": "Fair",
+        "hierarchy": 1
+    },
+    "nskc": {
+        "day": "https://www.dropbox.com/scl/fi/rakr8c8u54udnmt9kn463/Sunny.gif?rlkey=kcjmnm423f5jiyjglo8udjwh5&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/tggxr7a0jxgyea8juyz5x/Clear.gif?rlkey=c0z7om34yy6hrbxwxon7yrt78&raw=1",
+        "description": "Fair",
+        "hierarchy": 1
+    },
+    "hi_nskc": {
+        "day": "https://www.dropbox.com/scl/fi/rakr8c8u54udnmt9kn463/Sunny.gif?rlkey=kcjmnm423f5jiyjglo8udjwh5&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/tggxr7a0jxgyea8juyz5x/Clear.gif?rlkey=c0z7om34yy6hrbxwxon7yrt78&raw=1",
+        "description": "Fair",
+        "hierarchy": 1
+    },
+    "few": {
+        "day": "https://www.dropbox.com/scl/fi/4t65t7zj2wduu9p3q4rre/Partly-Cloudy.gif?rlkey=rv62s4cu9pnz1d9mvsq53gtz5&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/1n71x8v51tce4ehvu6wj6/Mostly-Clear.gif?rlkey=yhwnot41kam78tv3y223oigfe&raw=1",
+        "description": "Few Clouds",
+        "hierarchy": 2
+    },
+    "hi_few": {
+        "day": "https://www.dropbox.com/scl/fi/4t65t7zj2wduu9p3q4rre/Partly-Cloudy.gif?rlkey=rv62s4cu9pnz1d9mvsq53gtz5&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/1n71x8v51tce4ehvu6wj6/Mostly-Clear.gif?rlkey=yhwnot41kam78tv3y223oigfe&raw=1",
+        "description": "Few Clouds",
+        "hierarchy": 2
+    },
+    "nfew": {
+        "day": "https://www.dropbox.com/scl/fi/4t65t7zj2wduu9p3q4rre/Partly-Cloudy.gif?rlkey=rv62s4cu9pnz1d9mvsq53gtz5&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/1n71x8v51tce4ehvu6wj6/Mostly-Clear.gif?rlkey=yhwnot41kam78tv3y223oigfe&raw=1",
+        "description": "Few Clouds",
+        "hierarchy": 2
+    },
+    "hi_nfew": {
+        "day": "https://www.dropbox.com/scl/fi/4t65t7zj2wduu9p3q4rre/Partly-Cloudy.gif?rlkey=rv62s4cu9pnz1d9mvsq53gtz5&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/1n71x8v51tce4ehvu6wj6/Mostly-Clear.gif?rlkey=yhwnot41kam78tv3y223oigfe&raw=1",
+        "description": "Few Clouds",
+        "hierarchy": 2
+    },
+    "sct": {
+        "day": "https://www.dropbox.com/scl/fi/4t65t7zj2wduu9p3q4rre/Partly-Cloudy.gif?rlkey=rv62s4cu9pnz1d9mvsq53gtz5&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/1n71x8v51tce4ehvu6wj6/Mostly-Clear.gif?rlkey=yhwnot41kam78tv3y223oigfe&raw=1",
+        "description": "Partly Cloudy",
+        "hierarchy": 3
+    },
+    "hi_sct": {
+        "day": "https://www.dropbox.com/scl/fi/4t65t7zj2wduu9p3q4rre/Partly-Cloudy.gif?rlkey=rv62s4cu9pnz1d9mvsq53gtz5&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/1n71x8v51tce4ehvu6wj6/Mostly-Clear.gif?rlkey=yhwnot41kam78tv3y223oigfe&raw=1",
+        "description": "Partly Cloudy",
+        "hierarchy": 3
+    },
+    "nsct": {
+        "day": "https://www.dropbox.com/scl/fi/4t65t7zj2wduu9p3q4rre/Partly-Cloudy.gif?rlkey=rv62s4cu9pnz1d9mvsq53gtz5&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/1n71x8v51tce4ehvu6wj6/Mostly-Clear.gif?rlkey=yhwnot41kam78tv3y223oigfe&raw=1",
+        "description": "Partly Cloudy",
+        "hierarchy": 3
+    },
+    "hi_nsct": {
+        "day": "https://www.dropbox.com/scl/fi/4t65t7zj2wduu9p3q4rre/Partly-Cloudy.gif?rlkey=rv62s4cu9pnz1d9mvsq53gtz5&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/1n71x8v51tce4ehvu6wj6/Mostly-Clear.gif?rlkey=yhwnot41kam78tv3y223oigfe&raw=1",
+        "description": "Partly Cloudy",
+        "hierarchy": 3
+    },
+    "pcloudy": {
+        "day": "https://www.dropbox.com/scl/fi/4t65t7zj2wduu9p3q4rre/Partly-Cloudy.gif?rlkey=rv62s4cu9pnz1d9mvsq53gtz5&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/1n71x8v51tce4ehvu6wj6/Mostly-Clear.gif?rlkey=yhwnot41kam78tv3y223oigfe&raw=1",
+        "description": "Partly Cloudy",
+        "hierarchy": 3
+    },
+    "bkn": {
+        "day": "https://www.dropbox.com/scl/fi/2n1ydoaq1wputp4d1atsr/Mostly-Cloudy.gif?rlkey=8u1ksg5zplo1n22480e520t66&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/70zx3a48kyg9vuckhctcb/Partly-Clear.gif?rlkey=bgv8lmja7py1va1ery0rtakza&raw=1",
+        "description": "Cloudy",
+        "hierarchy": 4
+    },
+    "hi_bkn": {
+        "day": "https://www.dropbox.com/scl/fi/2n1ydoaq1wputp4d1atsr/Mostly-Cloudy.gif?rlkey=8u1ksg5zplo1n22480e520t66&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/70zx3a48kyg9vuckhctcb/Partly-Clear.gif?rlkey=bgv8lmja7py1va1ery0rtakza&raw=1",
+        "description": "Cloudy",
+        "hierarchy": 4
+    },
+    "nbkn": {
+        "day": "https://www.dropbox.com/scl/fi/2n1ydoaq1wputp4d1atsr/Mostly-Cloudy.gif?rlkey=8u1ksg5zplo1n22480e520t66&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/70zx3a48kyg9vuckhctcb/Partly-Clear.gif?rlkey=bgv8lmja7py1va1ery0rtakza&raw=1",
+        "description": "Cloudy",
+        "hierarchy": 4
+    },
+    "hi_nbkn": {
+        "day": "https://www.dropbox.com/scl/fi/2n1ydoaq1wputp4d1atsr/Mostly-Cloudy.gif?rlkey=8u1ksg5zplo1n22480e520t66&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/70zx3a48kyg9vuckhctcb/Partly-Clear.gif?rlkey=bgv8lmja7py1va1ery0rtakza&raw=1",
+        "description": "Cloudy",
+        "hierarchy": 4
+    },
+    "ovc": {
+        "day": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "description": "O'cast",
+        "hierarchy": 5
+    },
+    "hi_ovc": {
+        "day": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "description": "O'cast",
+        "hierarchy": 5
+    },
+    "novc": {
+        "day": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "description": "O'cast",
+        "hierarchy": 5
+    },
+    "hi_novc": {
+        "day": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "description": "O'cast",
+        "hierarchy": 5
+    },
+    "hot": {
+        "day": "https://www.dropbox.com/scl/fi/2wp2ukcxo5iut4vikqow3/Hot.gif?rlkey=sqjeprci0495qv08rl7rrdq74&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/2wp2ukcxo5iut4vikqow3/Hot.gif?rlkey=sqjeprci0495qv08rl7rrdq74&raw=1",
+        "description": "Hot",
+        "hierarchy": 6
+    },
+    "nhot": {
+        "day": "https://www.dropbox.com/scl/fi/2wp2ukcxo5iut4vikqow3/Hot.gif?rlkey=sqjeprci0495qv08rl7rrdq74&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/2wp2ukcxo5iut4vikqow3/Hot.gif?rlkey=sqjeprci0495qv08rl7rrdq74&raw=1",
+        "description": "Hot",
+        "hierarchy": 6
+    },
+    "cold": {
+        "day": "https://www.dropbox.com/scl/fi/hra3a8ufqyqwauwy64dhs/Frigid.gif?rlkey=4cu6hp88mgrvk9u4zwvy025t7&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/hra3a8ufqyqwauwy64dhs/Frigid.gif?rlkey=4cu6hp88mgrvk9u4zwvy025t7&raw=1",
+        "description": "Cold",
+        "hierarchy": 6
+    },
+    "ncold": {
+        "day": "https://www.dropbox.com/scl/fi/hra3a8ufqyqwauwy64dhs/Frigid.gif?rlkey=4cu6hp88mgrvk9u4zwvy025t7&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/hra3a8ufqyqwauwy64dhs/Frigid.gif?rlkey=4cu6hp88mgrvk9u4zwvy025t7&raw=1",
+        "description": "Cold",
+        "hierarchy": 6
+    },
+    "wind": {
+        "day": "https://www.dropbox.com/scl/fi/mpwqnzlw751syxzu24xz3/Wind-Clear-Day.gif?rlkey=kn7zz05qy79y0dcn6maj9kkjh&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/3ci5o5z98t2zng7txyod3/Wind-Clear-Night.gif?rlkey=nzxi026xqfppb06bc7ikqkvcq&raw=1",
+        "description": "Fair, Windy",
+        "hierarchy": 7
+    },
+    "nwind": {
+        "day": "https://www.dropbox.com/scl/fi/mpwqnzlw751syxzu24xz3/Wind-Clear-Day.gif?rlkey=kn7zz05qy79y0dcn6maj9kkjh&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/3ci5o5z98t2zng7txyod3/Wind-Clear-Night.gif?rlkey=nzxi026xqfppb06bc7ikqkvcq&raw=1",
+        "description": "Fair, Windy",
+        "hierarchy": 7
+    },
+    "wind_skc": {
+        "day": "https://www.dropbox.com/scl/fi/mpwqnzlw751syxzu24xz3/Wind-Clear-Day.gif?rlkey=kn7zz05qy79y0dcn6maj9kkjh&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/3ci5o5z98t2zng7txyod3/Wind-Clear-Night.gif?rlkey=nzxi026xqfppb06bc7ikqkvcq&raw=1",
+        "description": "Fair, Windy",
+        "hierarchy": 7
+    },
+    "nwind_skc": {
+        "day": "https://www.dropbox.com/scl/fi/mpwqnzlw751syxzu24xz3/Wind-Clear-Day.gif?rlkey=kn7zz05qy79y0dcn6maj9kkjh&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/3ci5o5z98t2zng7txyod3/Wind-Clear-Night.gif?rlkey=nzxi026xqfppb06bc7ikqkvcq&raw=1",
+        "description": "Fair, Windy",
+        "hierarchy": 7
+    },
+    "wind_few": {
+        "day": "https://www.dropbox.com/scl/fi/jldpchza6y8d1cv46brs5/Wind-Few-Day.gif?rlkey=app3nfejpqpob4z55bswwp30i&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/mxd9v76fh0ux7et8srzjp/Wind-Few-Night.gif?rlkey=3ot7i3t2g2jn8axbj8yeslvuw&raw=1",
+        "description": "Few Clouds, Windy",
+        "hierarchy": 8
+    },
+    "nwind_few": {
+        "day": "https://www.dropbox.com/scl/fi/jldpchza6y8d1cv46brs5/Wind-Few-Day.gif?rlkey=app3nfejpqpob4z55bswwp30i&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/mxd9v76fh0ux7et8srzjp/Wind-Few-Night.gif?rlkey=3ot7i3t2g2jn8axbj8yeslvuw&raw=1",
+        "description": "Few Clouds, Windy",
+        "hierarchy": 8
+    },
+    "wind_sct": {
+        "day": "https://www.dropbox.com/scl/fi/jldpchza6y8d1cv46brs5/Wind-Few-Day.gif?rlkey=app3nfejpqpob4z55bswwp30i&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/mxd9v76fh0ux7et8srzjp/Wind-Few-Night.gif?rlkey=3ot7i3t2g2jn8axbj8yeslvuw&raw=1",
+        "description": "Partly Cloudy, Windy",
+        "hierarchy": 9
+    },
+    "nwind_sct": {
+        "day": "https://www.dropbox.com/scl/fi/jldpchza6y8d1cv46brs5/Wind-Few-Day.gif?rlkey=app3nfejpqpob4z55bswwp30i&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/mxd9v76fh0ux7et8srzjp/Wind-Few-Night.gif?rlkey=3ot7i3t2g2jn8axbj8yeslvuw&raw=1",
+        "description": "Partly Cloudy, Windy",
+        "hierarchy": 9
+    },
+    "wind_bkn": {
+        "day": "https://www.dropbox.com/scl/fi/9o8wa287wq7tt2kx64prb/Wind-Cloudy-Day.gif?rlkey=jypsmzhbm65xcicq536oqo26n&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/fczs9q8mwp8jun7li0ofo/Wind-Cloudy-Night.gif?rlkey=tq63875bue2rsye8xl5m08bvz&raw=1",
+        "description": "Cloudy, Windy",
+        "hierarchy": 10
+    },
+    "nwind_bkn": {
+        "day": "https://www.dropbox.com/scl/fi/9o8wa287wq7tt2kx64prb/Wind-Cloudy-Day.gif?rlkey=jypsmzhbm65xcicq536oqo26n&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/fczs9q8mwp8jun7li0ofo/Wind-Cloudy-Night.gif?rlkey=tq63875bue2rsye8xl5m08bvz&raw=1",
+        "description": "Cloudy, Windy",
+        "hierarchy": 10
+    },
+    "wind_ovc": {
+        "day": "https://www.dropbox.com/scl/fi/symjfqai0op4my3yk11vz/Wind-Overcast.gif?rlkey=dhh18c8ggiydlvwx6zgaidc2e&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/symjfqai0op4my3yk11vz/Wind-Overcast.gif?rlkey=dhh18c8ggiydlvwx6zgaidc2e&raw=1",
+        "description": "O'cast, Windy",
+        "hierarchy": 11
+    },
+    "nwind_ovc": {
+        "day": "https://www.dropbox.com/scl/fi/symjfqai0op4my3yk11vz/Wind-Overcast.gif?rlkey=dhh18c8ggiydlvwx6zgaidc2e&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/symjfqai0op4my3yk11vz/Wind-Overcast.gif?rlkey=dhh18c8ggiydlvwx6zgaidc2e&raw=1",
+        "description": "O'cast, Windy",
+        "hierarchy": 11
+    },
+    "rain_showers_hi": {
+        "day": "https://www.dropbox.com/scl/fi/v6z3dj57izbya6b1dqcjb/Shower.gif?rlkey=gny2ur9q8q42v0qyzs6idytmi&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/v6z3dj57izbya6b1dqcjb/Shower.gif?rlkey=gny2ur9q8q42v0qyzs6idytmi&raw=1",
+        "description": "Rain Showers",
+        "hierarchy": 12
+    },
+    "hi_shwrs": {
+        "day": "https://www.dropbox.com/scl/fi/v6z3dj57izbya6b1dqcjb/Shower.gif?rlkey=gny2ur9q8q42v0qyzs6idytmi&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/v6z3dj57izbya6b1dqcjb/Shower.gif?rlkey=gny2ur9q8q42v0qyzs6idytmi&raw=1",
+        "description": "Rain Showers",
+        "hierarchy": 12
+    },
+    "hi_nshwrs": {
+        "day": "https://www.dropbox.com/scl/fi/v6z3dj57izbya6b1dqcjb/Shower.gif?rlkey=gny2ur9q8q42v0qyzs6idytmi&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/v6z3dj57izbya6b1dqcjb/Shower.gif?rlkey=gny2ur9q8q42v0qyzs6idytmi&raw=1",
+        "description": "Rain Showers",
+        "hierarchy": 12
+    },
+    "rain_showers": {
+        "day": "https://www.dropbox.com/scl/fi/v6z3dj57izbya6b1dqcjb/Shower.gif?rlkey=gny2ur9q8q42v0qyzs6idytmi&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/v6z3dj57izbya6b1dqcjb/Shower.gif?rlkey=gny2ur9q8q42v0qyzs6idytmi&raw=1",
+        "description": "Rain Showers",
+        "hierarchy": 13
+    },
+    "minus_ra": {
+        "day": "https://www.dropbox.com/scl/fi/v6z3dj57izbya6b1dqcjb/Shower.gif?rlkey=gny2ur9q8q42v0qyzs6idytmi&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/v6z3dj57izbya6b1dqcjb/Shower.gif?rlkey=gny2ur9q8q42v0qyzs6idytmi&raw=1",
+        "description": "Light Rain",
+        "hierarchy": 13
+    },
+    "ra1": {
+        "day": "https://www.dropbox.com/scl/fi/v6z3dj57izbya6b1dqcjb/Shower.gif?rlkey=gny2ur9q8q42v0qyzs6idytmi&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/v6z3dj57izbya6b1dqcjb/Shower.gif?rlkey=gny2ur9q8q42v0qyzs6idytmi&raw=1",
+        "description": "Light Rain",
+        "hierarchy": 13
+    },
+    "shra": {
+        "day": "https://www.dropbox.com/scl/fi/v6z3dj57izbya6b1dqcjb/Shower.gif?rlkey=gny2ur9q8q42v0qyzs6idytmi&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/v6z3dj57izbya6b1dqcjb/Shower.gif?rlkey=gny2ur9q8q42v0qyzs6idytmi&raw=1",
+        "description": "Rain Showers",
+        "hierarchy": 13
+    },
+    "shra2": {
+        "day": "https://www.dropbox.com/scl/fi/v6z3dj57izbya6b1dqcjb/Shower.gif?rlkey=gny2ur9q8q42v0qyzs6idytmi&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/v6z3dj57izbya6b1dqcjb/Shower.gif?rlkey=gny2ur9q8q42v0qyzs6idytmi&raw=1",
+        "description": "Rain Showers",
+        "hierarchy": 13
+    },
+    "nshra": {
+        "day": "https://www.dropbox.com/scl/fi/v6z3dj57izbya6b1dqcjb/Shower.gif?rlkey=gny2ur9q8q42v0qyzs6idytmi&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/v6z3dj57izbya6b1dqcjb/Shower.gif?rlkey=gny2ur9q8q42v0qyzs6idytmi&raw=1",
+        "description": "Rain Showers",
+        "hierarchy": 13
+    },
+    "rain": {
+        "day": "https://www.dropbox.com/scl/fi/byn5js95i7a377pyz9hqr/Rain.gif?rlkey=2jk1k9db25qg4aktlhft4tmbx&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/byn5js95i7a377pyz9hqr/Rain.gif?rlkey=2jk1k9db25qg4aktlhft4tmbx&raw=1",
+        "description": "Rain",
+        "hierarchy": 14
+    },
+    "ra": {
+        "day": "https://www.dropbox.com/scl/fi/byn5js95i7a377pyz9hqr/Rain.gif?rlkey=2jk1k9db25qg4aktlhft4tmbx&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/byn5js95i7a377pyz9hqr/Rain.gif?rlkey=2jk1k9db25qg4aktlhft4tmbx&raw=1",
+        "description": "Rain",
+        "hierarchy": 14
+    },
+    "nra": {
+        "day": "https://www.dropbox.com/scl/fi/byn5js95i7a377pyz9hqr/Rain.gif?rlkey=2jk1k9db25qg4aktlhft4tmbx&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/byn5js95i7a377pyz9hqr/Rain.gif?rlkey=2jk1k9db25qg4aktlhft4tmbx&raw=1",
+        "description": "Rain",
+        "hierarchy": 14
+    },
+    "tsra_hi": {
+        "day": "https://www.dropbox.com/scl/fi/vj1nilfds2tfpplgit8ip/Thunder.gif?rlkey=mj07g7ad1frbullxbc56t1sou&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/vj1nilfds2tfpplgit8ip/Thunder.gif?rlkey=mj07g7ad1frbullxbc56t1sou&raw=1",
+        "description": "T'storm",
+        "hierarchy": 15
+    },
+    "hi_tsra": {
+        "day": "https://www.dropbox.com/scl/fi/vj1nilfds2tfpplgit8ip/Thunder.gif?rlkey=mj07g7ad1frbullxbc56t1sou&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/vj1nilfds2tfpplgit8ip/Thunder.gif?rlkey=mj07g7ad1frbullxbc56t1sou&raw=1",
+        "description": "T'storm",
+        "hierarchy": 15
+    },
+    "hi_ntsra": {
+        "day": "https://www.dropbox.com/scl/fi/vj1nilfds2tfpplgit8ip/Thunder.gif?rlkey=mj07g7ad1frbullxbc56t1sou&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/vj1nilfds2tfpplgit8ip/Thunder.gif?rlkey=mj07g7ad1frbullxbc56t1sou&raw=1",
+        "description": "T'storm",
+        "hierarchy": 15
+    },
+    "tsra_sct": {
+        "day": "https://www.dropbox.com/scl/fi/vj1nilfds2tfpplgit8ip/Thunder.gif?rlkey=mj07g7ad1frbullxbc56t1sou&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/vj1nilfds2tfpplgit8ip/Thunder.gif?rlkey=mj07g7ad1frbullxbc56t1sou&raw=1",
+        "description": "T'storm",
+        "hierarchy": 16
+    },
+    "scttsra": {
+        "day": "https://www.dropbox.com/scl/fi/vj1nilfds2tfpplgit8ip/Thunder.gif?rlkey=mj07g7ad1frbullxbc56t1sou&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/vj1nilfds2tfpplgit8ip/Thunder.gif?rlkey=mj07g7ad1frbullxbc56t1sou&raw=1",
+        "description": "T'storm",
+        "hierarchy": 16
+    },
+    "nscttsra": {
+        "day": "https://www.dropbox.com/scl/fi/vj1nilfds2tfpplgit8ip/Thunder.gif?rlkey=mj07g7ad1frbullxbc56t1sou&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/vj1nilfds2tfpplgit8ip/Thunder.gif?rlkey=mj07g7ad1frbullxbc56t1sou&raw=1",
+        "description": "T'storm",
+        "hierarchy": 16
+    },
+    "tsra": {
+        "day": "https://www.dropbox.com/scl/fi/1o3ovv6tb0vek6xb5bmdh/Thunderstorm.gif?rlkey=t746ga8f23gulx3aboyr3nww5&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/1o3ovv6tb0vek6xb5bmdh/Thunderstorm.gif?rlkey=t746ga8f23gulx3aboyr3nww5&raw=1",
+        "description": "T'storm",
+        "hierarchy": 17
+    },
+    "ntsra": {
+        "day": "https://www.dropbox.com/scl/fi/1o3ovv6tb0vek6xb5bmdh/Thunderstorm.gif?rlkey=t746ga8f23gulx3aboyr3nww5&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/1o3ovv6tb0vek6xb5bmdh/Thunderstorm.gif?rlkey=t746ga8f23gulx3aboyr3nww5&raw=1",
+        "description": "T'storm",
+        "hierarchy": 17
+    },
+    "fog": {
+        "day": "https://www.dropbox.com/scl/fi/1fc7m4tbc4sadtye2tf5c/Scattered-Fog.gif?rlkey=8bkpm8yx0kv5tzu5gvqseh60s&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/6qqmpylsyubjfg2d1aiqp/Night-Scattered-Fog.gif?rlkey=ruk40tlxc0t06ynu281zfkt4z&raw=1",
+        "description": "Fog",
+        "hierarchy": 18
+    },
+    "fg": {
+        "day": "https://www.dropbox.com/scl/fi/1fc7m4tbc4sadtye2tf5c/Scattered-Fog.gif?rlkey=8bkpm8yx0kv5tzu5gvqseh60s&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/6qqmpylsyubjfg2d1aiqp/Night-Scattered-Fog.gif?rlkey=ruk40tlxc0t06ynu281zfkt4z&raw=1",
+        "description": "Fog",
+        "hierarchy": 18
+    },
+    "sctfg": {
+        "day": "https://www.dropbox.com/scl/fi/1fc7m4tbc4sadtye2tf5c/Scattered-Fog.gif?rlkey=8bkpm8yx0kv5tzu5gvqseh60s&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/6qqmpylsyubjfg2d1aiqp/Night-Scattered-Fog.gif?rlkey=ruk40tlxc0t06ynu281zfkt4z&raw=1",
+        "description": "Fog",
+        "hierarchy": 18
+    },
+    "nfg": {
+        "day": "https://www.dropbox.com/scl/fi/1fc7m4tbc4sadtye2tf5c/Scattered-Fog.gif?rlkey=8bkpm8yx0kv5tzu5gvqseh60s&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/6qqmpylsyubjfg2d1aiqp/Night-Scattered-Fog.gif?rlkey=ruk40tlxc0t06ynu281zfkt4z&raw=1",
+        "description": "Fog",
+        "hierarchy": 18
+    },
+    "nbknfg": {
+        "day": "https://www.dropbox.com/scl/fi/1fc7m4tbc4sadtye2tf5c/Scattered-Fog.gif?rlkey=8bkpm8yx0kv5tzu5gvqseh60s&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/6qqmpylsyubjfg2d1aiqp/Night-Scattered-Fog.gif?rlkey=ruk40tlxc0t06ynu281zfkt4z&raw=1",
+        "description": "Fog",
+        "hierarchy": 18
+    },
+    "haze": {
+        "day": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "description": "Haze",
+        "hierarchy": 19
+    },
+    "hazy": {
+        "day": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "description": "Haze",
+        "hierarchy": 19
+    },
+    "hz": {
+        "day": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "description": "Haze",
+        "hierarchy": 19
+    },
+    "br": {
+        "day": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "description": "Haze",
+        "hierarchy": 19
+    },
+    "mist": {
+        "day": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "description": "Haze",
+        "hierarchy": 19
+    },
+    "dust": {
+        "day": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "description": "Dust",
+        "hierarchy": 20
+    },
+    "du": {
+        "day": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "description": "Dust",
+        "hierarchy": 20
+    },
+    "ndu": {
+        "day": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "description": "Dust",
+        "hierarchy": 20
+    },
+    "smoke": {
+        "day": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "description": "Smoke",
+        "hierarchy": 21
+    },
+    "fu": {
+        "day": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "description": "Smoke",
+        "hierarchy": 21
+    },
+    "nfu": {
+        "day": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/22p6zb24j1feu43h8f456/Cloudy.gif?rlkey=w3fet9ayii5mef6yimf67uasv&raw=1",
+        "description": "Smoke",
+        "hierarchy": 21
+    },
+    "snow": {
+        "day": "https://www.dropbox.com/scl/fi/7rfg8vsvb565c1xfpdkpj/Heavy-Snow.gif?rlkey=vsxce215qqs2xdy74afkx7yr7&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/7rfg8vsvb565c1xfpdkpj/Heavy-Snow.gif?rlkey=vsxce215qqs2xdy74afkx7yr7&raw=1",
+        "description": "Snow",
+        "hierarchy": 22
+    },
+    "sn": {
+        "day": "https://www.dropbox.com/scl/fi/7rfg8vsvb565c1xfpdkpj/Heavy-Snow.gif?rlkey=vsxce215qqs2xdy74afkx7yr7&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/7rfg8vsvb565c1xfpdkpj/Heavy-Snow.gif?rlkey=vsxce215qqs2xdy74afkx7yr7&raw=1",
+        "description": "Snow",
+        "hierarchy": 22
+    },
+    "nsn": {
+        "day": "https://www.dropbox.com/scl/fi/7rfg8vsvb565c1xfpdkpj/Heavy-Snow.gif?rlkey=vsxce215qqs2xdy74afkx7yr7&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/7rfg8vsvb565c1xfpdkpj/Heavy-Snow.gif?rlkey=vsxce215qqs2xdy74afkx7yr7&raw=1",
+        "description": "Snow",
+        "hierarchy": 22
+    },
+    "rain_snow": {
+        "day": "https://www.dropbox.com/scl/fi/f1e6a6irp0z8j2ytd0enq/Rain-Snow.gif?rlkey=65wgkwcokdcsy87o2tzukmzh8&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/f1e6a6irp0z8j2ytd0enq/Rain-Snow.gif?rlkey=65wgkwcokdcsy87o2tzukmzh8&raw=1",
+        "description": "Rain, Snow",
+        "hierarchy": 23
+    },
+    "rasn": {
+        "day": "https://www.dropbox.com/scl/fi/f1e6a6irp0z8j2ytd0enq/Rain-Snow.gif?rlkey=65wgkwcokdcsy87o2tzukmzh8&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/f1e6a6irp0z8j2ytd0enq/Rain-Snow.gif?rlkey=65wgkwcokdcsy87o2tzukmzh8&raw=1",
+        "description": "Rain, Snow",
+        "hierarchy": 23
+    },
+    "nrasn": {
+        "day": "https://www.dropbox.com/scl/fi/f1e6a6irp0z8j2ytd0enq/Rain-Snow.gif?rlkey=65wgkwcokdcsy87o2tzukmzh8&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/f1e6a6irp0z8j2ytd0enq/Rain-Snow.gif?rlkey=65wgkwcokdcsy87o2tzukmzh8&raw=1",
+        "description": "Rain, Snow",
+        "hierarchy": 23
+    },
+    "ra_sn": {
+        "day": "https://www.dropbox.com/scl/fi/f1e6a6irp0z8j2ytd0enq/Rain-Snow.gif?rlkey=65wgkwcokdcsy87o2tzukmzh8&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/f1e6a6irp0z8j2ytd0enq/Rain-Snow.gif?rlkey=65wgkwcokdcsy87o2tzukmzh8&raw=1",
+        "description": "Rain, Snow",
+        "hierarchy": 23
+    },
+    "nra_sn": {
+        "day": "https://www.dropbox.com/scl/fi/f1e6a6irp0z8j2ytd0enq/Rain-Snow.gif?rlkey=65wgkwcokdcsy87o2tzukmzh8&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/f1e6a6irp0z8j2ytd0enq/Rain-Snow.gif?rlkey=65wgkwcokdcsy87o2tzukmzh8&raw=1",
+        "description": "Rain, Snow",
+        "hierarchy": 23
+    },
+    "sleet": {
+        "day": "https://www.dropbox.com/scl/fi/p4wl6wl9lmuwl9inkklf2/Sleet.gif?rlkey=8e89xcab8mjs9q8jikx6hgdmr&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/p4wl6wl9lmuwl9inkklf2/Sleet.gif?rlkey=8e89xcab8mjs9q8jikx6hgdmr&raw=1",
+        "description": "Sleet",
+        "hierarchy": 24
+    },
+    "ip": {
+        "day": "https://www.dropbox.com/scl/fi/p4wl6wl9lmuwl9inkklf2/Sleet.gif?rlkey=8e89xcab8mjs9q8jikx6hgdmr&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/p4wl6wl9lmuwl9inkklf2/Sleet.gif?rlkey=8e89xcab8mjs9q8jikx6hgdmr&raw=1",
+        "description": "Sleet",
+        "hierarchy": 24
+    },
+    "nip": {
+        "day": "https://www.dropbox.com/scl/fi/p4wl6wl9lmuwl9inkklf2/Sleet.gif?rlkey=8e89xcab8mjs9q8jikx6hgdmr&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/p4wl6wl9lmuwl9inkklf2/Sleet.gif?rlkey=8e89xcab8mjs9q8jikx6hgdmr&raw=1",
+        "description": "Sleet",
+        "hierarchy": 24
+    },
+    "rain_sleet": {
+        "day": "https://www.dropbox.com/scl/fi/t3q6hzbihmiwja8dbarf9/Freezing-Rain-Sleet.gif?rlkey=v370wsvufsw48q58zessxe6fm&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/t3q6hzbihmiwja8dbarf9/Freezing-Rain-Sleet.gif?rlkey=v370wsvufsw48q58zessxe6fm&raw=1",
+        "description": "Rain, Sleet",
+        "hierarchy": 25
+    },
+    "raip": {
+        "day": "https://www.dropbox.com/scl/fi/t3q6hzbihmiwja8dbarf9/Freezing-Rain-Sleet.gif?rlkey=v370wsvufsw48q58zessxe6fm&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/t3q6hzbihmiwja8dbarf9/Freezing-Rain-Sleet.gif?rlkey=v370wsvufsw48q58zessxe6fm&raw=1",
+        "description": "Rain, Sleet",
+        "hierarchy": 25
+    },
+    "nraip": {
+        "day": "https://www.dropbox.com/scl/fi/t3q6hzbihmiwja8dbarf9/Freezing-Rain-Sleet.gif?rlkey=v370wsvufsw48q58zessxe6fm&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/t3q6hzbihmiwja8dbarf9/Freezing-Rain-Sleet.gif?rlkey=v370wsvufsw48q58zessxe6fm&raw=1",
+        "description": "Rain, Sleet",
+        "hierarchy": 25
+    },
+    "snow_sleet": {
+        "day": "https://www.dropbox.com/scl/fi/wtlfnp19x8990s4svc7qg/Snow-Sleet.gif?rlkey=lq001dnjww8z04iw0yhkd7c78&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/wtlfnp19x8990s4svc7qg/Snow-Sleet.gif?rlkey=lq001dnjww8z04iw0yhkd7c78&raw=1",
+        "description": "Snow, Sleet",
+        "hierarchy": 26
+    },
+    "snip": {
+        "day": "https://www.dropbox.com/scl/fi/wtlfnp19x8990s4svc7qg/Snow-Sleet.gif?rlkey=lq001dnjww8z04iw0yhkd7c78&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/wtlfnp19x8990s4svc7qg/Snow-Sleet.gif?rlkey=lq001dnjww8z04iw0yhkd7c78&raw=1",
+        "description": "Snow, Sleet",
+        "hierarchy": 26
+    },
+    "nsnip": {
+        "day": "https://www.dropbox.com/scl/fi/wtlfnp19x8990s4svc7qg/Snow-Sleet.gif?rlkey=lq001dnjww8z04iw0yhkd7c78&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/wtlfnp19x8990s4svc7qg/Snow-Sleet.gif?rlkey=lq001dnjww8z04iw0yhkd7c78&raw=1",
+        "description": "Snow, Sleet",
+        "hierarchy": 26
+    },
+    "fzra": {
+        "day": "https://www.dropbox.com/scl/fi/omzv5qhq80k3lvrx002o7/Freezing-Rain.gif?rlkey=yc7c1y0k77aammha1zk2x7kw8&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/omzv5qhq80k3lvrx002o7/Freezing-Rain.gif?rlkey=yc7c1y0k77aammha1zk2x7kw8&raw=1",
+        "description": "Frz. Rain",
+        "hierarchy": 27
+    },
+    "nfzra": {
+        "day": "https://www.dropbox.com/scl/fi/omzv5qhq80k3lvrx002o7/Freezing-Rain.gif?rlkey=yc7c1y0k77aammha1zk2x7kw8&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/omzv5qhq80k3lvrx002o7/Freezing-Rain.gif?rlkey=yc7c1y0k77aammha1zk2x7kw8&raw=1",
+        "description": "Frz. Rain",
+        "hierarchy": 27
+    },
+    "rain_fzra": {
+        "day": "https://www.dropbox.com/scl/fi/omzv5qhq80k3lvrx002o7/Freezing-Rain.gif?rlkey=yc7c1y0k77aammha1zk2x7kw8&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/omzv5qhq80k3lvrx002o7/Freezing-Rain.gif?rlkey=yc7c1y0k77aammha1zk2x7kw8&raw=1",
+        "description": "Rain, Frz. Rain",
+        "hierarchy": 28
+    },
+    "ra_fzra": {
+        "day": "https://www.dropbox.com/scl/fi/omzv5qhq80k3lvrx002o7/Freezing-Rain.gif?rlkey=yc7c1y0k77aammha1zk2x7kw8&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/omzv5qhq80k3lvrx002o7/Freezing-Rain.gif?rlkey=yc7c1y0k77aammha1zk2x7kw8&raw=1",
+        "description": "Rain, Frz. Rain",
+        "hierarchy": 28
+    },
+    "fzrara": {
+        "day": "https://www.dropbox.com/scl/fi/omzv5qhq80k3lvrx002o7/Freezing-Rain.gif?rlkey=yc7c1y0k77aammha1zk2x7kw8&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/omzv5qhq80k3lvrx002o7/Freezing-Rain.gif?rlkey=yc7c1y0k77aammha1zk2x7kw8&raw=1",
+        "description": "Rain, Frz. Rain",
+        "hierarchy": 28
+    },
+    "nra_fzra": {
+        "day": "https://www.dropbox.com/scl/fi/omzv5qhq80k3lvrx002o7/Freezing-Rain.gif?rlkey=yc7c1y0k77aammha1zk2x7kw8&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/omzv5qhq80k3lvrx002o7/Freezing-Rain.gif?rlkey=yc7c1y0k77aammha1zk2x7kw8&raw=1",
+        "description": "Rain, Frz. Rain",
+        "hierarchy": 28
+    },
+    "snow_fzra": {
+        "day": "https://www.dropbox.com/scl/fi/f1e6a6irp0z8j2ytd0enq/Rain-Snow.gif?rlkey=65wgkwcokdcsy87o2tzukmzh8&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/f1e6a6irp0z8j2ytd0enq/Rain-Snow.gif?rlkey=65wgkwcokdcsy87o2tzukmzh8&raw=1",
+        "description": "Frz. Rain, Snow",
+        "hierarchy": 29
+    },
+    "fzra_sn": {
+        "day": "https://www.dropbox.com/scl/fi/f1e6a6irp0z8j2ytd0enq/Rain-Snow.gif?rlkey=65wgkwcokdcsy87o2tzukmzh8&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/f1e6a6irp0z8j2ytd0enq/Rain-Snow.gif?rlkey=65wgkwcokdcsy87o2tzukmzh8&raw=1",
+        "description": "Frz. Rain, Snow",
+        "hierarchy": 29
+    },
+    "nfzra_sn": {
+        "day": "https://www.dropbox.com/scl/fi/f1e6a6irp0z8j2ytd0enq/Rain-Snow.gif?rlkey=65wgkwcokdcsy87o2tzukmzh8&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/f1e6a6irp0z8j2ytd0enq/Rain-Snow.gif?rlkey=65wgkwcokdcsy87o2tzukmzh8&raw=1",
+        "description": "Frz. Rain, Snow",
+        "hierarchy": 29
+    },
+    "mix": {
+        "day": "https://www.dropbox.com/scl/fi/f1e6a6irp0z8j2ytd0enq/Rain-Snow.gif?rlkey=65wgkwcokdcsy87o2tzukmzh8&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/f1e6a6irp0z8j2ytd0enq/Rain-Snow.gif?rlkey=65wgkwcokdcsy87o2tzukmzh8&raw=1",
+        "description": "Frz. Rain, Snow",
+        "hierarchy": 29
+    },
+    "nmix": {
+        "day": "https://www.dropbox.com/scl/fi/f1e6a6irp0z8j2ytd0enq/Rain-Snow.gif?rlkey=65wgkwcokdcsy87o2tzukmzh8&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/f1e6a6irp0z8j2ytd0enq/Rain-Snow.gif?rlkey=65wgkwcokdcsy87o2tzukmzh8&raw=1",
+        "description": "Frz. Rain, Snow",
+        "hierarchy": 29
+    },
+    "blizzard": {
+        "day": "https://www.dropbox.com/scl/fi/dlyoigirpr4lrq11jb9yb/Blowing-Snow.gif?rlkey=x1fr86egu1arkvb413uxw4rmu&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/dlyoigirpr4lrq11jb9yb/Blowing-Snow.gif?rlkey=x1fr86egu1arkvb413uxw4rmu&raw=1",
+        "description": "Blizzard",
+        "hierarchy": 30
+    },
+    "nblizzard": {
+        "day": "https://www.dropbox.com/scl/fi/dlyoigirpr4lrq11jb9yb/Blowing-Snow.gif?rlkey=x1fr86egu1arkvb413uxw4rmu&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/dlyoigirpr4lrq11jb9yb/Blowing-Snow.gif?rlkey=x1fr86egu1arkvb413uxw4rmu&raw=1",
+        "description": "Blizzard",
+        "hierarchy": 30
+    },
+    "fc": {
+        "day": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "description": "Funnel Cloud Spotted",
+        "hierarchy": 31
+    },
+    "nfc": {
+        "day": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "description": "Funnel Cloud Spotted",
+        "hierarchy": 31
+    },
+    "nsvrtsra": {
+        "day": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "description": "Funnel Cloud Spotted",
+        "hierarchy": 31
+    },
+    "tornado": {
+        "day": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "description": "Tornado",
+        "hierarchy": 32
+    },
+    "tor": {
+        "day": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "description": "Tornado",
+        "hierarchy": 32
+    },
+    "ntor": {
+        "day": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "description": "Tornado",
+        "hierarchy": 32
+    },
+    "ts_watch": {
+        "day": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "description": "Tropical Storm Watch",
+        "hierarchy": 33
+    },
+    "ts_warn": {
+        "day": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "description": "Tropical Storm Warning",
+        "hierarchy": 34
+    },
+    "ts_nowarn": {
+        "day": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "description": "Tropical Storm Cond's",
+        "hierarchy": 35
+    },
+    "tropical_storm": {
+        "day": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "description": "Tropical Storm",
+        "hierarchy": 36
+    },
+    "hur_watch": {
+        "day": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "description": "Hurricane Watch",
+        "hierarchy": 37
+    },
+    "hur_warn": {
+        "day": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "description": "Hurricane Warning",
+        "hierarchy": 38
+    },
+    "hurricane": {
+        "day": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "description": "Hurricane",
+        "hierarchy": 39
+    },
+    "tsu": {
+        "day": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "night": "https://www.dropbox.com/scl/fi/4jdh65g2w6nr46qen1rte/cyclone-tornado-1.gif?rlkey=rkj7ilg06zpdpdelw1q7uploi&raw=1",
+        "description": "Tsunami",
+        "hierarchy": 40
+    }
+}

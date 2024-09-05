@@ -1,0 +1,538 @@
+openapi: 3.1.0
+info:
+  title: Rainbow REST API
+  version: 1.2.0
+  description: >-
+    ### **A RESTful API for my [Fair Weather Friend](addfwfurl.com) web app**
+
+    **Rainbow REST** returns weather data specifically for **Fair Weather Friend** preformatted for HTML to match The Weather Channel's [WeatherSTAR 4000](https://twcclassics.com/information/weatherstar-4000-flavors.html#nov92) display ca. 1993. The primary goal of the **Fair Weather Friend** project is to distribute as many hyper-local surface weather observations as possible for the user. To that end, **Rainbow REST** endpoints utilize the following data sources:
+
+    * Surface weather observations from the [Citizen Weather Observer Program (CWOP)](https://en.wikipedia.org/wiki/Citizen_Weather_Observer_Program) distributed via [Synoptic Data's Open Access API](https://synopticdata.com/pricing/open-access-pricing/)
+
+    * Supplementary surface weather observations from the [National Digital Forecast Database (NDFD)](https://vlab.noaa.gov/web/mdl/ndfd) via their [Experimental Fine-resolution XML REST service](https://digital.mdl.nws.noaa.gov/xml/rest.php)
+
+    * Weather alerts from the [National Weather Service (NWS)](https://www.weather.gov) via their [MapClick API](https://forecast.weather.gov/)
+
+    * Numerical weather predictions from the [National Blend of Models (NBM)](https://vlab.noaa.gov/web/mdl/nbm) distributed via NOAA's [NOMADS](https://nomads.ncep.noaa.gov)
+
+    * Geodata from [Google Maps](https://developers.google.com/maps) and [OpenStreetMap](https://www.openstreetmap.org/copyright)
+  contact:
+    email: animatronic@protonmail.com
+    name: Quinn
+tags:
+  - name: geo
+    description: Geodata related endpoints
+  - name: wx
+    description: Weather related endpoints
+components:
+  parameters:
+    lat:
+      name: lat
+      in: query
+      description: Latitude (in the US)
+      required: true
+      style: form
+      explode: true
+      schema:
+        type: number
+      example: 37.8239
+    lon:
+      name: lon
+      in: query
+      description: Longitude (in the US)
+      required: true
+      style: form
+      explode: true
+      schema:
+        type: number
+      example: -96.2892
+    address:
+      name: address
+      in: query
+      description: Address; City, State; Zipcode, etc., in the US
+      required: true
+      style: form
+      explode: true
+      schema:
+        type: string
+      example: 3008 Cortelyou Rd Brooklyn, NY 11226
+  responses:
+    AddressError:
+      description: Invalid address
+      content:
+        string:
+          schema:
+            $ref: "#/components/schemas/Error"
+          examples:
+            InvalidInput:
+              value: "The address argument must be a string: e.g., 'Bushwick, Brooklyn'"
+    PointError:
+      description: Invalid point
+      content:
+        string:
+          schema:
+            $ref: "#/components/schemas/Error"
+          examples:
+            InvalidInput:
+              value: >-
+                lat and lon arguments must be float values corresponding to a geopoint
+                within the US including GU, PR, HI, and AK
+    GoogleGeocodingAPIError:
+      description: Google Geocoding API error
+      content:
+        string:
+          schema:
+            $ref: "#/components/schemas/Error"
+          examples:
+            ServerError:
+              value: The Google Maps Geocoding API request failed
+    NominatimAPIError:
+      description: Nominatim API error
+      content:
+        string:
+          schema:
+            $ref: "#/components/schemas/Error"
+          examples:
+            ServerError:
+              value: The OpenStreetMap Nominatim API request failed
+    NWSMapClickAPIError:
+      description: NWS MapClick API error
+      content:
+        string:
+          schema:
+            $ref: "#/components/schemas/Error"
+          examples:
+            ServerError:
+              value: The NWS MapClick API request failed
+    SynopticError:
+      description: Synoptic API error
+      content:
+        string:
+          schema:
+            $ref: "#/components/schemas/Error"
+          examples:
+            ServerError:
+              value: The Synoptic Data API request failed
+    NDFDError:
+      description: NDFD API error
+      content:
+        string:
+          schema:
+            $ref: "#/components/schemas/Error"
+          examples:
+            ServerError:
+              value: The NDFD XML API request failed
+    NBMError:
+      description: NBM Text Bulletin error
+      content:
+        string:
+          schema:
+            $ref: "#/components/schemas/Error"
+          examples:
+            ServerError:
+              value: The NOMADS request for the NBM text bulletin failed
+    FwdSuccess:
+      description: Sample `forward` success response
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Forward"
+          examples:
+            Success:
+              value: |-
+                {
+                    "lat": 40.644371,
+                    "lon": -73.948551,
+                    "loc": "Little Haiti, Brooklyn",
+                    "tz": "America/New_York"
+                }
+    RevSuccess:
+      description: Sample `reverse` success response
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Reverse"
+          examples:
+            Success:
+              value: |-
+                {
+                    "country": "US",
+                    "city": "New York",
+                    "state": "NY"
+                }
+    AlertSuccess:
+      description: Sample `alerts` success response
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Alert"
+          examples:
+            Success:
+              value: |-
+                {
+                  "alerts": [
+                      "<pre class='alert-entry'>&#10;Coastal Hazard Message&#10;National Weather Service Tiyan GU&#10;424 AM ChST Sat Mar 2 2024&#10;&#10;GUZ001-MPZ001>003-020800-&#10;/O.CON.PGUM.SU.W.0004.000000T0000Z-240301T2000Z/&#10;/O.CON.PGUM.SU.Y.0028.240301T2000Z-240302T2000Z/&#10;/O.CON.PGUM.CF.S.0004.000000T0000Z-240301T2000Z/&#10;/O.CON.PGUM.RP.S.0007.000000T0000Z-240302T2000Z/&#10;Guam-Rota-Tinian-Saipan-&#10;424 AM ChST Sat Mar 2 2024&#10;&#10;...HIGH SURF WARNING NO LONGER IN EFFECT...&#10;...HIGH SURF ADVISORY IN EFFECT UNTIL 6 AM CHST SUNDAY ALONG WEST,&#10;NORTH AND EAST FACING REEFS...&#10;...HIGH RISK OF RIP CURRENTS THROUGH LATE TONIGHT ALONG WEST, NORTH&#10;AND EAST FACING REEFS...&#10;&#10;* WHAT...For the High Surf Advisory, large breaking waves of 9 to&#10;  12 feet in the surf zone. For the High Rip Current Risk,&#10;  dangerous rip currents.&#10;&#10;* WHERE...For the High Surf Advisory and High Rip Current Risk,&#10;  along west, north and east facing reefs.&#10;&#10;* WHEN...For the High Surf Advisory, until 6 AM Sunday. For the&#10;  High Rip Current Risk, through late tonight.&#10;&#10;* IMPACTS...Breaking waves can sweep people off jetties and&#10;  docks, and into dangerous seas. Life-threatening swimming&#10;  conditions and significant beach erosion can be expected. Rip&#10;  currents can sweep even the best swimmers away from shore into&#10;  deeper water.&#10;&#10;* ADDITIONAL DETAILS...Surf will be dangerous along north facing&#10;  reefs today. Surf will remain hazardous tonight, gradually&#10;  subsiding by early next week.&#10;&#10;PRECAUTIONARY/PREPAREDNESS ACTIONS...&#10;&#10;Swim near a lifeguard. If caught in a rip current, relax and&#10;float. Don`t swim against the current. If able, swim in a&#10;direction following the shoreline. If unable to escape, face the&#10;shore and call or wave for help.&#10;&#10;&&&#10;&#10;$$&#10;&#10;Simpson&#10;&#10;</pre>",
+                      "<pre class='alert-entry'>&#10;Coastal Hazard Message&#10;National Weather Service Tiyan GU&#10;424 AM ChST Sat Mar 2 2024&#10;&#10;GUZ001-MPZ001>003-020800-&#10;/O.CON.PGUM.SU.W.0004.000000T0000Z-240301T2000Z/&#10;/O.CON.PGUM.SU.Y.0028.240301T2000Z-240302T2000Z/&#10;/O.CON.PGUM.CF.S.0004.000000T0000Z-240301T2000Z/&#10;/O.CON.PGUM.RP.S.0007.000000T0000Z-240302T2000Z/&#10;Guam-Rota-Tinian-Saipan-&#10;424 AM ChST Sat Mar 2 2024&#10;&#10;...HIGH SURF WARNING NO LONGER IN EFFECT...&#10;...HIGH SURF ADVISORY IN EFFECT UNTIL 6 AM CHST SUNDAY ALONG WEST,&#10;NORTH AND EAST FACING REEFS...&#10;...HIGH RISK OF RIP CURRENTS THROUGH LATE TONIGHT ALONG WEST, NORTH&#10;AND EAST FACING REEFS...&#10;&#10;* WHAT...For the High Surf Advisory, large breaking waves of 9 to&#10;  12 feet in the surf zone. For the High Rip Current Risk,&#10;  dangerous rip currents.&#10;&#10;* WHERE...For the High Surf Advisory and High Rip Current Risk,&#10;  along west, north and east facing reefs.&#10;&#10;* WHEN...For the High Surf Advisory, until 6 AM Sunday. For the&#10;  High Rip Current Risk, through late tonight.&#10;&#10;* IMPACTS...Breaking waves can sweep people off jetties and&#10;  docks, and into dangerous seas. Life-threatening swimming&#10;  conditions and significant beach erosion can be expected. Rip&#10;  currents can sweep even the best swimmers away from shore into&#10;  deeper water.&#10;&#10;* ADDITIONAL DETAILS...Surf will be dangerous along north facing&#10;  reefs today. Surf will remain hazardous tonight, gradually&#10;  subsiding by early next week.&#10;&#10;PRECAUTIONARY/PREPAREDNESS ACTIONS...&#10;&#10;Swim near a lifeguard. If caught in a rip current, relax and&#10;float. Don`t swim against the current. If able, swim in a&#10;direction following the shoreline. If unable to escape, face the&#10;shore and call or wave for help.&#10;&#10;&&&#10;&#10;$$&#10;&#10;Simpson&#10;&#10;</pre>"
+                  ],
+                  "zones": "GUZ001, GUC010, GUZ001"
+                }
+    AlmSuccess:
+      description: Sample `almanac` success response
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Almanac"
+          examples:
+            Success:
+              value: |-
+                {
+                    "solar": [
+                        {
+                            "wday": "Tuesday",
+                            "rise": "07:08 AM",
+                            "set": "05:10 PM",
+                            "tz": "EST"
+                        },
+                        {
+                            "wday": "Tuesday",
+                            "rise": "07:07 AM",
+                            "set": "05:11 PM",
+                            "tz": "EST"
+                        }
+                    ],
+                    "lunar": [
+                        {
+                            "phase": "Last",
+                            "date": "Feb 2",
+                            "icon": "https://www.dropbox.com/scl/fi/3r1q2cnvkg61zkjgyh2dm/Last-Quarter.gif?rlkey=bw60x56xry6fb09tq0j5v7mnk&raw=1"
+                        },
+                        {
+                            "phase": "New",
+                            "date": "Feb 9",
+                            "icon": "https://www.dropbox.com/scl/fi/jekwqob3h57ce8w50xw97/New-Moon.gif?rlkey=744gswqht61f78pgnumjwrjhs&raw=1"
+                        },
+                        {
+                            "phase": "First",
+                            "date": "Feb 16",
+                            "icon": "https://www.dropbox.com/scl/fi/f5gvvy53fuz0gb5xspw5u/First-Quarter.gif?rlkey=xrwpc8rn0hlvgiij0mu4kknru&raw=1"
+                        },
+                        {
+                            "phase": "Full",
+                            "date": "Feb 24",
+                            "icon": "https://www.dropbox.com/scl/fi/tlqt2w2twjp05zvjcq0kf/Full-Moon.gif?rlkey=g1lj1szsolmvodv75iga42dln&raw=1"
+                        }
+                    ]
+                }
+    CurSuccess:
+      description: Sample `current` success response
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Current"
+          examples:
+            Success:
+              value: |-
+                {
+                    "t": "35&deg;",
+                    "rh": "85%",
+                    "dew": "31&deg;",
+                    "wind": "Wind: SSW 5 </br>Gusts to 9",
+                    "vis": "10 mi.",
+                    "p": "29.99 in.",
+                    "ceil": "1700 ft.",
+                    "heat": null,
+                    "w_chill": null,
+                    "wx": "Overcast",
+                    "icon": "https://www.dropbox.com/scl/fi/aiti7p43x2rf9qpe6jcmd/CC_Cloudy.gif?rlkey=gbkpkbopsaybpoiv7r75srh3k&raw=1",
+                    "stations": [
+                        "KNYC",
+                        "KJRB",
+                        "G3011"
+                    ]
+                }
+    FcstSuccess:
+      description: Sample `forecast` success response
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Forecast"
+          examples:
+            Success:
+              value: |-
+                [
+                    {
+                        "hi": 41,
+                        "lo": 35,
+                        "wx": "Mostly Cloudy",
+                        "icon": "https://www.dropbox.com/scl/fi/6dob5vbh69hfticmgq1rz/CC_MostlyCloudy1.gif?rlkey=rzbt5xj28s7fg7vuof21f0a12&raw=1",
+                        "wday": "Wednesday"
+                    },
+                    {
+                        "hi": 47,
+                        "lo": 38,
+                        "wx": "Partly Sunny",
+                        "icon": "https://www.dropbox.com/scl/fi/6dob5vbh69hfticmgq1rz/CC_MostlyCloudy1.gif?rlkey=rzbt5xj28s7fg7vuof21f0a12&raw=1",
+                        "wday": "Thursday"
+                    },
+                    {
+                        "hi": 46,
+                        "lo": 29,
+                        "wx": "Partly Sunny",
+                        "icon": "https://www.dropbox.com/scl/fi/6dob5vbh69hfticmgq1rz/CC_MostlyCloudy1.gif?rlkey=rzbt5xj28s7fg7vuof21f0a12&raw=1",
+                        "wday": "Friday"
+                    }
+                ]
+  schemas:
+    Forward:
+      type: object
+      properties:
+        lat:
+          type: number
+        lon:
+          type: number
+        loc:
+          type: string
+        tz:
+          type: string
+      example:
+        tz: tz
+        lat: lat
+        lon: lon
+        loc: loc
+    Reverse:
+      type: object
+      properties:
+        country:
+          type: string
+        city:
+          type: string
+        state:
+          type: string
+      example:
+        country: country
+        city: city
+        state: state
+    Alert:
+      type: object
+      properties:
+        alerts:
+          type: array
+          items:
+            type: string
+        zones:
+          type: string
+    Almanac:
+      type: object
+      properties:
+        solar:
+          type: array
+          items:
+            $ref: "#/components/schemas/Solar"
+        lunar:
+          type: array
+          items:
+            $ref: "#/components/schemas/Lunar"
+      example:
+        solar:
+          - set: set
+            wday: wday
+            rise: rise
+          - set: set
+            wday: wday
+            rise: rise
+        lunar:
+          - phase: phase
+            date: date
+            icon: icon
+          - phase: phase
+            date: date
+            icon: icon
+    Current:
+      type: object
+      properties:
+        t:
+          type: string
+        rh:
+          type: string
+        dew:
+          type: string
+        wind:
+          type: string
+        vis:
+          type: string
+        p:
+          type: string
+        ceil:
+          type: string
+        heat:
+          type: string
+        chill:
+          type: string
+        wx:
+          type: string
+        icon:
+          type: string
+        stations:
+          type: array
+          items:
+            type: string
+      example:
+        vis: vis
+        ceil: ceil
+        wx: wx
+        t: t
+        rh: rh
+        dew: dew
+        icon: icon
+        chill: chill
+        p: p
+        stations:
+          - stations
+        wind: wind
+        heat: heat
+    Forecast:
+      type: array
+      items:
+        type: object
+        properties:
+          hi:
+            type: number
+          icon:
+            type: string
+          lo:
+            type: number
+          wday:
+            type: string
+          wx:
+            type: string
+    Solar:
+      type: object
+      properties:
+        wday:
+          type: string
+        rise:
+          type: string
+        set:
+          type: string
+        tz:
+          type: string
+      example:
+        set: set
+        wday: wday
+        rise: rise
+        tz: tz
+    Lunar:
+      type: object
+      properties:
+        phase:
+          type: string
+        date:
+          type: string
+        icon:
+          type: string
+      example:
+        phase: phase
+        date: date
+        icon: icon
+    Error:
+      type: string
+paths:
+  /geo/forward:
+    get:
+      tags:
+        - geo
+      summary: Find geodata by address
+      description: Returns geodata for a given address
+      parameters:
+        - $ref: "#/components/parameters/address"
+      responses:
+        200:
+          $ref: "#/components/responses/FwdSuccess"
+        461:
+          $ref: "#/components/responses/AddressError"
+        521:
+          $ref: "#/components/responses/GoogleGeocodingAPIError"
+  /geo/reverse:
+    get:
+      tags:
+        - geo
+      summary: Find address by geopoint
+      description: Returns nonspecific address data given a geopoint
+      parameters:
+        - $ref: "#/components/parameters/lat"
+        - $ref: "#/components/parameters/lon"
+      responses:
+        200:
+          $ref: "#/components/responses/RevSuccess"
+        462:
+          $ref: "#/components/responses/PointError"
+        524:
+          $ref: "#/components/responses/NominatimAPIError"
+  /wx/alerts:
+    get:
+      tags:
+        - wx
+      summary: Find local weather alerts
+      description: >-
+        Returns weather alert data from the National Weather Service for the
+        given geopoint formatted as a list of HTML `<pre>` elements
+      parameters:
+        - $ref: "#/components/parameters/lat"
+        - $ref: "#/components/parameters/lon"
+      responses:
+        200:
+          $ref: "#/components/responses/AlertSuccess"
+        462:
+          $ref: "#/components/responses/PointError"
+        526:
+          $ref: "#/components/responses/NWSMapClickAPIError"
+  /wx/almanac:
+    get:
+      tags:
+        - wx
+      summary: Get solar and lunar cycle data
+      description: >-
+        Returns sunrise/set and upcoming lunar cycle data for the given geopoint
+      parameters:
+        - $ref: "#/components/parameters/lat"
+        - $ref: "#/components/parameters/lon"
+      responses:
+        200:
+          $ref: "#/components/responses/AlmSuccess"
+        462:
+          $ref: "#/components/responses/PointError"
+  /wx/current:
+    get:
+      tags:
+        - wx
+      summary: Get current weather conditions
+      description: Returns current weather condition data for the given geopoint
+      parameters:
+        - $ref: "#/components/parameters/lat"
+        - $ref: "#/components/parameters/lon"
+      responses:
+        200:
+          $ref: "#/components/responses/CurSuccess"
+        462:
+          $ref: "#/components/responses/PointError"
+        525:
+          $ref: "#/components/responses/SynopticError"
+        523:
+          $ref: "#/components/responses/NDFDError"
+  /wx/forecast:
+    get:
+      tags:
+        - wx
+      summary: Find the upcoming forecast
+      description: >-
+        Returns the upcoming forecast for the next 3 days for the given geopoint
+      parameters:
+        - $ref: "#/components/parameters/lat"
+        - $ref: "#/components/parameters/lon"
+      responses:
+        200:
+          $ref: "#/components/responses/FcstSuccess"
+        462:
+          $ref: "#/components/responses/PointError"
+        522:
+          $ref: "#/components/responses/NBMError"
